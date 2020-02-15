@@ -1,0 +1,7 @@
+name: MCAdminPanelServer
+version: ${project.version}
+main: mc.jonmarcello.ca.mcadminpanelserver.MCAdminPanelServer
+api-version: 1.13
+authors: [JonMarcello]
+description: Server for listening to front end admin panel commands
+website: jonmarcello.ca
