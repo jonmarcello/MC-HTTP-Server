@@ -9,7 +9,7 @@ From here you could be able to send remote commands via HTTP and have something 
 ```java
 public static void start() throws IOException {
     // setup listen port
-    server = HttpServer.create(new InetSocketAddress(8000), 0);
+    HttpServer server = HttpServer.create(new InetSocketAddress(8000), 0);
 
     // setup route
     server.createContext("/test", new MyHandler());
